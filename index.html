@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Support the Cause</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('OIP.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.7);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .button {
+            background-color: #28a745;
+            color: white;
+            padding: 15px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 10px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .button:hover {
+            background-color: #218838;
+        }
+        footer {
+            font-size: 12px;
+            color: #ccc;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <div class="container">
+            <h1>Help Us Make a Change</h1>
+            <img src="abvk.webp" alt="AB de Villiers Crying">
+            <p><strong>Even cricket legends like AB de Villiers shed tears for the suffering of others.</strong></p>
+            <p>Your $1 donation can bring smiles back to faces. Choose your preferred method to donate:</p>
+            <a class="button" href="upi://pay?pa=yourupiid@okaxis&pn=Donation&cu=INR">Donate via UPI</a>
+            <a class="button" href="https://paypal.me/yourname">Donate via PayPal</a>
+            <p>PayPal ID: <strong>yourname@example.com</strong></p>
+            <img src="icc-logo.png" alt="ICC Logo" width="120">
+            <footer>
+                *This is a charitable initiative inspired by the love for cricket. The ICC is not affiliated with this campaign.
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
